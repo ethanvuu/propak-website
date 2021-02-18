@@ -1,0 +1,142 @@
+/* All NEWS */
+.section-container.e-brochure {
+    background: url(../images/worldmap.png) no-repeat top left;
+}
+
+.section-container.e-brochure .card .brochure-container {
+    height: 0;
+    top:500px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.section-container.e-brochure .card:hover .brochure-container {
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 186, 21, 0.9)
+}
+
+.section-container.e-brochure .card:hover .brochure-container img {
+  width: 90px;
+}
+
+.section-container.e-brochure .swiper-container {
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+
+.section-container.e-brochure .swiper-container .swiper-slide {
+  height: auto;
+  overflow: hidden;
+  margin-top: 50px !important;
+}
+
+.section-container.e-brochure .swiper-container .swiper-slide .card {
+  height: 450px;
+  position: relative;
+}
+
+.section-container.e-brochure,
+.section-container.e-brochure .max-width-wrapper {
+  position: relative;
+}
+
+.section-container.e-brochure .industry-news-header {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container.e-brochure .industry-news-header div {
+  border-bottom: 5px solid #ffc73c;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.section-container.e-brochure .swiper-slide {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.section-container.e-brochure .swiper-slide .image-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.section-container.e-brochure .swiper-slide .image-container .image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.section-container.e-brochure .swiper-slide .description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffba15;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+}
+
+.section-container.e-brochure .swiper-slide .description .header {
+  font-size: 1.2rem;
+  line-height: 1.1;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.section-container.e-brochure .swiper-slide .description .readmore {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  letter-spacing: 1.4px;
+}
+
+/*Navigator*/
+
+.e-brochure .navigator {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #252525
+}
+
+.e-brochure .navigator i {
+    font-size: 2rem;
+    margin: 0px 20px;
+    position: relative;
+    top:1px
+}
+
+.e-brochure .navigator .previous ,
+.e-brochure .navigator .next
+{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center ;
+    cursor: pointer;
+}
+
+.e-brochure .navigator .previous.none ,
+.e-brochure .navigator .next.none {
+   display: none;
+}
+
+.e-brochure .navigator .previous {
+    border-right: 1px solid #252525 ;
+}
+.e-brochure .navigator .previous.alone {
+    border-right: none ;
+}
+

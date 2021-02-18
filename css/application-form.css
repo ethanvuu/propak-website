@@ -1,0 +1,156 @@
+.app-form {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+}
+.app-form .max-width-wrapper {
+    padding: 40px
+}
+
+.app-form .bg-bottom {
+    position: absolute;
+    right:0;
+    bottom:200px;
+    z-index: -1;
+}
+.app-form .bg-top {
+    position: absolute;
+    left:0;
+    top:0;
+    max-width: 650px;
+    z-index: -1;
+
+}
+
+.app-form .form-wrapper {
+  background: rgba(244, 244, 244, 0.6);
+  border-radius: 10px;
+  padding: 30px 40px;
+  padding-bottom: 120px;
+}
+
+.app-form .header {
+  font-size: 2.5rem;
+  font-weight: 800;
+  display: flex;
+  margin-bottom: 30px;
+  color: #252525;
+}
+
+.app-form .text {
+  font-size: 1.2rem;
+  color: #252525;
+  margin-bottom: 30px;
+}
+
+.app-form .header div {
+  border-bottom: 4px solid #ffc83c;
+}
+
+/*CHECK BOXES*/
+
+.app-form .check-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.app-form .checkbox-label {
+  font-size: 1.2rem;
+  color: #252525;
+  margin-right: 30px;
+}
+
+.app-form .check-boxes .checkboxes,
+.app-form .checkbox-label {
+  flex-shrink: 0;
+}
+
+.app-form .check-boxes label {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: #252525;
+  cursor: pointer;
+}
+.app-form .check-boxes input[type="radio"] {
+  opacity: 0;
+  width: 0;
+}
+
+.app-form .check-boxes input:checked + span {
+  background: #ffc83c;
+  background-clip: content-box;
+}
+
+.app-form .check-boxes input + span {
+  display: block;
+  border: 1px solid black;
+  height: 1rem;
+  width: 1rem;
+  padding: 2px;
+  margin-right: 10px;
+  position: relative;
+  top: 1px;
+}
+
+/*INPUT FIELD*/
+.app-form .text-field {
+  color: #898989;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.app-form .text-field input {
+  width: 100%;
+  max-width: 500px;
+  background: #ececec;
+  border: none;
+  outline: none;
+  height: 30px;
+  color: #252525;
+}
+
+.app-form .liner {
+  height: 2px;
+  width: 100%;
+  max-width: 740px;
+  background: #ffc83c;
+  margin-top: 40px;
+}
+
+.app-form .liner + .text {
+  color: #898989;
+}
+
+.app-form button[type="submit"] {
+  font-family: Montserrat;
+  position: absolute;
+  display: block;
+  font-size: 0.8rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  color: #000;
+  background: #ffc83c;
+  border-radius: 20px;
+  height: 40px;
+  width: 10rem;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s;
+  bottom: 80px;
+  letter-spacing: 1.2px;
+}
+
+.app-form button[type="submit"]:hover {
+    transform: translateX(-50%) scale(1.1);
+} 
+
+@media screen and (max-width:768px){
+   .app-form .text br {
+       display: none;
+   } 
+}

@@ -1,0 +1,491 @@
+:root {
+  --card-width: 180px;
+}
+
+/*SHOW STATISTIC*/
+
+.sub-why-exhibit .section-container.show-statistics {
+  padding: 0;
+  padding-top:30px;
+}
+
+.sub-why-exhibit .section-container.show-statistics .max-width-wrapper {
+  height:100%;
+}
+
+.section-container.show-statistics .counter-container .couter-item-wrapper {
+ margin-bottom: 10px;
+}
+
+/*WHY EXHIBIT*/
+
+.section-container.why-exhibit-sub {
+  position: relative;
+}
+
+.content-wrapper.sub-why-exhibit .section-container.banner,
+.content-wrapper.sub-why-exhibit .section-container.testimonials {
+  padding-bottom: 0;
+}
+.section-container.why-exhibit-sub .bg-overlay.top-bg {
+  position: absolute;
+  height: 25vw;
+  width: 25vw;
+  top: 0;
+  right: 0;
+  background: #ffc93c;
+  z-index: -1;
+}
+
+.section-container.why-exhibit-sub .bg-overlay.bottom-bg {
+  height: 5vw;
+  width: 25vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #ffc93c;
+}
+
+.section-container.why-exhibit-sub .main-content {
+  background: #fff;
+  z-index: 2;
+  text-align: center;
+  padding: 1vw;
+}
+
+.section-container.why-exhibit-sub .main-content .header {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.section-container.why-exhibit-sub .main-content .sub-header {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.section-container.why-exhibit-sub .main-content .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-container.why-exhibit-sub
+  .main-content
+  .cards-container
+  .break-column {
+  flex-basis: 100%;
+  display: none;
+}
+
+.section-container.why-exhibit-sub .main-content .cards-container .card {
+  width: var(--card-width);
+  margin-bottom: 50px;
+}
+
+.section-container.why-exhibit-sub
+  .main-content
+  .cards-container
+  .card
+  .card-icon {
+  height: calc(var(--card-width) - 20px);
+  margin:10px;
+  background: #e5e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container.why-exhibit-sub
+  .main-content
+  .cards-container
+  .card
+  .card-name {
+  padding-top: 10px;
+  word-wrap: break-word;
+  text-align: center;
+  font-weight: 600;
+}
+
+/*TESTIMONIALS*/
+
+.section-container.testimonials {
+  background: url("../images/exhibit/worldmap.png") no-repeat left top;
+}
+
+.section-container.testimonials .header {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-container.testimonials .swiper-container {
+  padding-bottom: 150px;
+}
+
+.section-container.testimonials .swiper-container.order-1 {
+  margin-bottom: 60px;
+}
+
+.section-container.testimonials .swiper-pagination-bullet {
+  transition: all 0.2s;
+  background: rgba(255, 111, 60, 1);
+  opacity: 0.4;
+  display: inline-block;
+  margin-right: 15px !important;
+}
+
+.section-container.testimonials .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+.section-container.testimonials .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container.testimonials .swiper-slide .testimonial {
+  background: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 0px;
+  width: 320px;
+}
+
+.section-container.testimonials .swiper-slide .testimonial .stars {
+  text-align: center;
+}
+
+.section-container.testimonials .swiper-slide .testimonial .stars i {
+  color: #ffc93c;
+}
+
+.section-container.testimonials .swiper-slide .testimonial .text {
+  text-align: center;
+  position: relative;
+  margin: 15px 0;
+  zoom: 1;
+  font-size: 1rem;
+}
+
+.section-container.testimonials .swiper-slide .testimonial .text:before {
+  display: block;
+  position: absolute;
+  top: -1.5rem;
+  left: -1rem;
+  font-size: 3rem;
+  color: #ffba15;
+  content: "”";
+}
+
+.section-container.testimonials .swiper-slide .testimonial .avatar {
+  width: 140px;
+  height: 140px;
+  background: #4f4f4f;
+  border-radius: 50%;
+}
+
+.section-container.testimonials .swiper-slide .testimonial .description {
+  text-align: center;
+  background: #ffba15;
+  width: 220px;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  z-index: 1000;
+}
+
+.section-container.testimonials .swiper-slide .testimonial .description .name {
+  color: #fff;
+  font-weight: 700;
+}
+
+.section-container.testimonials .order-2 .swiper-slide .testimonial .stars {
+  padding-bottom: 40px;
+}
+
+.section-container.testimonials .order-2 .swiper-slide .testimonial {
+  padding-bottom: 100px;
+}
+
+/*WHY EXHIBIT WHAT ON*/
+.section-container.what-on-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.section-container.what-on-header .bg-map {
+  position: absolute;
+  top:0;
+  right: 0;
+  z-index: -1;
+}
+
+.section-container.what-on-header .header {
+  font-size: 3rem;
+  font-weight: 800;
+  border-bottom: 0.5rem solid #ffc83c; 
+}
+
+/*Sales brochures*/
+
+.section-container.sales-brochure-container {
+  padding-bottom: 0px; 
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+  position: relative;
+}
+
+.section-container.sales-brochure-container .bg-map {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index:-1;
+}
+
+.section-container.sales-brochure-container .sales-brochure {
+  position: relative;
+  right:15px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.section-container.sales-brochure-container .sales-brochure:hover {
+  transform: scale(1.1);
+}
+
+.section-container.sales-brochure-container .sales-brochure .top-skew{
+  display: block;
+  height:30px;
+  width: 100%;
+  background: #fff;
+  border: 2px solid black;
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  transform: skewX(-50deg);
+  transform-origin: bottom center; 
+}
+
+.section-container.sales-brochure-container .sales-brochure .right-skew {
+  display: block;
+  height:calc(100% + 1px);
+  width: 35px;
+  background: #fff;
+  border: 2px solid black;
+  content: "";
+  position: absolute;
+  right: -35px;
+  bottom: 0;
+  transform: skewY(-40deg);
+  transform-origin: left top; 
+}
+
+.section-container.sales-brochure-container .sales-brochure {
+  background: #ffc93c;
+  padding: 30px;
+}
+
+.section-container.sales-brochure-container .sales-brochure .top{
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 0.9;
+}
+
+.section-container.sales-brochure-container .sales-brochure .bottom{
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+
+/*Be An Exhibitor*/
+.section-container.be-exhibitors {
+  position: relative;
+}
+
+.section-container.be-exhibitors .bg-overlay {
+  position: absolute;
+  bottom: 3vw;
+  right: 0;
+  width: 30vw;
+  height: 4vw;
+  background: #4f4f4f;
+  z-index: 4;
+}
+
+.section-container.be-exhibitors .max-width-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-container.be-exhibitors .row,
+.section-container.be-exhibitors .header {
+  width: 506px;
+  max-width: 100%;
+}
+
+.section-container.be-exhibitors .col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4vw 2rem 4vw 2rem;
+}
+
+.section-container.be-exhibitors .row {
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.section-container.be-exhibitors .col .row * {
+  transition: all 0.2s;
+  transform-origin: center left;
+}
+
+.section-container.be-exhibitors .col .row:hover * {
+  transform:scale(1.1);
+}
+
+.section-container.be-exhibitors .row .logo {
+  padding-left: 10px;
+}
+
+.section-container.be-exhibitors .row .text {
+  flex-grow: 1;
+  padding: 0 20px;
+  font-size: 2rem;
+}
+
+.section-container.be-exhibitors .col .header {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+/*LEFT COLUMN*/
+.section-container.be-exhibitors .col.left-col {
+  background: #4f4f4f;
+  color: #ffc93c;
+}
+.section-container.be-exhibitors .col.left-col .header {
+  color: #a9a9a9;
+}
+
+.section-container.be-exhibitors .col.left-col .row {
+  border-top: 2px solid #ffc93c;
+}
+
+.section-container.be-exhibitors .col.left-col .row-2 {
+  border-bottom: 2px solid #ffc93c;
+}
+/*RIGHT COLUMN*/
+.section-container.be-exhibitors .col.right-col {
+  background: #ffc93c;
+  color: #363636;
+}
+.section-container.be-exhibitors .col.right-col .header {
+  color: #363636;
+}
+
+.section-container.be-exhibitors .col.right-col .row {
+  border-top: 2px solid #363636;
+}
+
+.section-container.be-exhibitors .col.right-col .row-2 {
+  border-bottom: 2px solid #363636;
+}
+/*Extra Large Screen*/
+
+@media screen and (min-width: 1440px) {
+  /*WHY EXHIBIT SUB*/
+  .section-container.why-exhibit-sub
+    .main-content
+    .cards-container
+    .break-column {
+    display: block;
+  }
+  .section-container.why-exhibit-sub .bg-overlay.top-bg {
+    top: 0;
+    right: calc((90vw - 1440px)/2);
+  }
+  .section-container.why-exhibit-sub .bg-overlay.bottom-bg {
+    bottom: 0;
+    left:calc((90vw - 1440px)/2);
+  }
+  /*Be An Exhibitor*/
+  .section-container.be-exhibitors .bg-overlay {
+    width: 600px;
+    right: calc((90vw - 1440px)/2);
+  }
+  .section-container.be-exhibitors .col {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-container.why-exhibit-sub .main-content .cards-container {
+    justify-content: space-evenly;
+  }
+  .section-container.be-exhibitors .col {
+    width: 100%;
+  }
+  /*BE EXHIBITOR*/
+
+  .section-container.be-exhibitors .bg-overlay {
+    display: none;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 500px) {
+  :root {
+    --card-width: 140px;
+  }
+  /*Sub Why Exhibits */
+  .section-container.why-exhibit-sub .main-content .cards-container {
+    justify-content: space-around;
+  }
+
+  .section-container.why-exhibit-sub .bg-overlay.top-bg {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .section-container.why-exhibit-sub .bg-overlay.bottom-bg {
+    width: 40vw;
+  }
+  /*SALES BROCHURE*/
+  .section-container.sales-brochure-container .sales-brochure {
+    transform: scale(0.8);
+  }
+  /*BE EXHIBITOR*/
+  .section-container.be-exhibitors .col {
+    width: 100%;
+    padding: 15px;
+  }
+  .section-container.be-exhibitors .col .header {
+    font-size: 2.5rem;
+  }
+  .section-container.be-exhibitors .row .text {
+    font-size: 1.5rem;
+  }
+  
+  .section-container.what-on-header .header{
+    font-size:2.5rem; 
+  }
+
+  .section-container.why-exhibit-sub .main-content .header {
+    font-size: 2.5rem
+  }
+
+  .section-container.testimonials .header {
+    font-size: 2.5rem
+  }
+}

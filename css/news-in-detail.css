@@ -1,0 +1,112 @@
+.news-in-detail {
+    padding-top: 60px;
+    background: url(../images/newsInDetail/bg.png) no-repeat top left ;
+}
+
+.news-in-detail .max-width-wrapper {
+    display: flex;
+    padding: 40px;
+}
+
+.news-in-detail .main-content {
+    background: rgba(226, 232, 232, 0.6);
+    border-radius:10px;
+    padding: 15px 20px ;
+}
+
+.news-in-detail .main-content img {
+    max-width: 100%;
+}
+
+.news-in-detail .main-content .header {
+    font-size: 2.2rem;
+    color: #252525;
+    font-weight: bold;
+}
+
+.news-in-detail .main-content .sub-title {
+    font-size: 1.8rem;
+    color: #555555;
+    margin-bottom: 30px ;
+    font-weight: 600;
+
+}
+
+.news-in-detail .main-content .time {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 30px;
+
+}
+
+.news-in-detail .main-content .text {
+    color: #555555;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+/*ASIDE*/
+
+.news-in-detail aside {
+    margin-left: 40px ;
+}
+
+.news-in-detail aside .new {
+    cursor: pointer;
+}
+
+.news-in-detail aside .new .header {
+    font-size: 1.2rem;
+    color: #1a1a1d;
+    font-weight: bold;
+}
+
+.news-in-detail aside .time {
+    font-size: 1rem;
+    color: #555555;
+    margin-bottom: 30px;
+
+}
+
+/**RESPONSIVE**/
+
+@media screen and (max-width: 768px) {
+    .news-in-detail .max-width-wrapper {
+        flex-direction: column;
+    }
+
+    .news-in-detail .max-width-wrapper {
+        flex-direction: column;
+    }
+    .news-in-detail .max-width-wrapper aside {
+        display: flex;
+        margin: 0;       
+    }
+    .news-in-detail .max-width-wrapper aside .banner{
+        display: none;
+    }
+    .news-in-detail .max-width-wrapper aside img{
+        max-width: 100%;
+    }
+    .news-in-detail .max-width-wrapper aside .new {
+        padding: 20px;
+        max-width: 100%;
+        width: 50%;        
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .news-in-detail .max-width-wrapper .main-content {
+        margin-bottom: 40px;
+    }
+    .news-in-detail .max-width-wrapper aside { 
+        flex-direction: column;
+    }
+
+    .news-in-detail .max-width-wrapper aside .new {
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,234 @@
+@media screen and (min-width: 1100px) {
+
+  /*Why Exhibit*/
+  .section-container.why-exhibit .bg-overlay.top-left{
+    top: 0;
+    left: calc((90vw - 1100px)/2);
+  }
+  .section-container.why-exhibit .bg-overlay.bottom-right {
+    bottom: 0;
+    right: calc((90vw - 1100px)/2);
+  }
+  /*Industry News*/
+  .section-container.industry-news .overflow-hidden.right {
+    position: absolute;
+    right: 0;
+    width: calc((5vw - 25px) + ((90vw - 1100px) / 2));
+    z-index: 2;
+    height: 100%;
+    background: #fff;
+  }
+
+  .section-container.industry-news .overflow-hidden.left {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    width: calc(5vw + ((90vw - 1100px) / 2));
+    height: 100%;
+    background: #fff;
+  }
+  /*What On*/
+
+  .section-container.what-on .bg-overlay.top-right {
+    top: 0;
+    right: calc((90vw - 1100px)/2);
+  }
+  .section-container.what-on .bg-overlay.bottom-left {
+    bottom: 0;
+    left: calc((90vw - 1100px)/2);
+  }
+
+  .section-container.what-on .item-block {
+    width: calc(100% / 3);
+    min-height: 340px;
+  }
+
+}
+
+/*Small screen laptop*/
+
+@media screen and (max-width: 1200px) {
+  .section-container.what-on .item-block {
+    width: 50%;
+    min-height: 45vw;
+  }
+}
+
+/*TABLE*/
+
+@media screen and (max-width: 800px) {
+  /*Header*/
+  .propak-header .swiper-slide {
+    overflow: hidden;
+  }
+  .propak-header .swiper-slide img.background {
+    height: 100%;
+    width: auto;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /*Show staticstics*/
+  .section-container.show-statistics .show-statistics-header div {
+    width: auto;
+  }
+  .section-container.show-statistics .max-width-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-container.show-statistics .show-statistics-header {
+    width: 90vw;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .section-container.show-statistics .counter-container {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+  .section-container.show-statistics .counter-container .couter-item-wrapper {
+    min-width: 115px;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .section-container.show-statistics
+    .counter-container
+    .couter-item-wrapper
+    .counter-number-wrapper {
+    justify-content: center;
+  }
+
+  
+  /*Why exhibit*/
+  .section-container.why-exhibit .item-block {
+    width: 100%;
+  }
+
+  .section-container.why-exhibit .bg-overlay,
+  .section-container.what-on .bg-overlay {
+    width: 250px;
+    height: 250px;
+  }
+
+  .section-container.why-exhibit .item-block.item-block-style-1 {
+    padding: 2rem;
+  }
+
+  .section-container.why-exhibit .item-block.item-block-style-1 .text {
+    max-width: 100%;
+  }
+
+  .section-container.why-exhibit .item-block.item-block-style-1.order-4 {
+    order: 3;
+  }
+
+  .section-container.why-exhibit .item-block.item-block-style-2.order-3 {
+    order: 4;
+  }
+
+  /*WHAT'S ON*/
+  .section-container.what-on .item-block {
+    width: 50%;
+    min-height: 44vw;
+  }
+
+  .section-container.what-on .item-block.item-block-style-1 .header {
+    font-size: 2rem;
+  }
+
+  .section-container.what-on .item-block.item-block-style-3 .text {
+    font-size: 1.2rem;
+  }
+  .section-container.what-on .description {
+    height: 97px
+  }
+  /*EXHIBITORS*/
+  .section-container.exhibitors .swiper-slide {
+    height: 100px;
+    max-width: 100px;
+  }
+
+  .section-container.exhibitors .swiper-slide .image {
+    height: 80px;
+    width: auto;
+  }
+  .section-container.exhibitors .swiper-button-prev {
+    left: -10px;
+  }
+
+  .section-container.exhibitors .swiper-button-next {
+    right: -10px;
+  }
+  /*PARTNERS*/
+  .section-container.partners .swiper-container {
+    max-width: 500px;
+  }
+  .section-container.partners .swiper-slide .logo {
+    height: 140px;
+    width: 140px;
+  }
+  .section-container.partners .overlay-left,
+  .section-container.partners .overlay-right {
+    width: 11vw;
+  }
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 600px) {
+  
+  /*SHOW STATISTIC*/
+  .section-container.show-statistics .show-statistics-header div {
+    font-size: 2.5rem;
+  }
+
+  .section-container.show-statistics .counter-container .couter-item-wrapper {
+    padding: 10px;
+  }
+  /*WHAT'S ON*/
+  .section-container.what-on .item-block {
+    width: 100%;
+    min-height: 80vw;
+    height: auto;
+  }
+
+  .section-container.what-on .item-block.item-block-style-3:hover .description {
+    padding:1rem 1rem;
+  }
+
+  /*WHY EXHIBIT*/
+  .section-container.why-exhibit .item-block.item-block-style-2 {
+    min-height: 450px;
+  }
+
+  .section-container.industry-news .industry-news-header div, .section-container.exhibitors .header, .section-container.partners .header  {
+    font-size: 2.5rem
+  }
+    /*PARTNERS*/
+    .section-container.partners .swiper-container {
+      max-width: 250px;
+    }
+    .section-container.partners .swiper-slide .logo {
+      height: 62px;
+      width: 62px;
+    }
+    .section-container.partners .overlay-left,
+    .section-container.partners .overlay-right {
+      width: 11vw;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+  .section-container.why-exhibit .item-block.item-block-style-1 {
+    padding: 1rem;
+  }
+
+  .section-container.what-on .item-block.item-block-style-3 .description { 
+    height: 120px
+  }
+}

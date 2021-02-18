@@ -1,0 +1,315 @@
+@media screen and (min-width: 1440px) {
+  body .section-container.press-release .bg-overlay {
+    right: 50px;
+    bottom: -50px;
+  }
+}
+
+:root {
+  --descrition-maxwidth: 460px;
+}
+/**/
+.section-container.sub-industry-news.industry-news{
+  padding-top: 30px;
+}
+
+.section-container.sub-industry-news.industry-news .max-width-wrapper {
+    background: url(../images/worldmap.png) top left no-repeat;
+}
+
+.section-container.sub-industry-news.banner  {
+    background: url(../images/worldmap.png) top left no-repeat;
+}
+/*PRESS RELEASE*/
+
+.section-container.press-release  {
+  background: url(../images/worldmap.png) top right no-repeat;
+}
+
+.section-container.press-release .all-press-release {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  transition: all 0.3s;
+  transform-origin: right center;
+}
+
+.section-container.press-release .all-press-release .click-here {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.section-container.press-release .all-press-release:hover {
+  transform: scale(1.1);
+}
+
+.section-container.press-release .bg-overlay {
+  position: absolute;
+  right: -2.5rem;
+  bottom: -2.5rem;
+  height: 500px;
+  width: 500px;
+  background: #ffc93c;
+}
+
+.section-container.press-release .swiper-container {
+  height: 560px;
+  position: relative;
+  max-width: 1160px;
+}
+
+.section-container.press-release
+  .swiper-container-vertical
+  > .swiper-pagination-bullets {
+  position: absolute;
+  right: 30px;
+  width: 17px;
+}
+
+.section-container.press-release
+  .swiper-container-vertical
+  .swiper-pagination-bullet {
+  background: #fff;
+  opacity: 0.6;
+}
+.section-container.press-release
+  .swiper-container-vertical
+  .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.section-container.press-release .swiper-container .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container.press-release .swiper-container .release-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .left-column {
+  z-index: 10;
+}
+
+.section-container.press-release .swiper-container .release-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column {
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  flex-grow: 1;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e5eaea;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .description-bg {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .top {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  padding: 20px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+  background: #fff;
+  letter-spacing: 1.2px;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .bottom {
+  position: absolute;
+  bottom: -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  right: 40px;
+  width: 300px;
+  background: #fff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .bottom
+  .read-more,
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .bottom
+  i {
+  transition: all 0.3s;
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .bottom:hover
+  .read-more,
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .bottom:hover
+  i {
+  transform: scale(1.1);
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .header {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  max-width: var(--descrition-maxwidth);
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .date {
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+  color: #a8abae;
+  max-width: var(--descrition-maxwidth);
+}
+
+.section-container.press-release
+  .swiper-container
+  .release-container
+  .right-column
+  .description
+  .text {
+  margin-bottom: 50px;
+  font-size: 1rem;
+  max-width: var(--descrition-maxwidth);
+}
+
+/*SMALL DESKTOP*/
+
+@media screen and (max-width: 1000px) {
+  .section-container.press-release
+    .swiper-container
+    .release-container
+    .left-column {
+    display: none;
+  }
+  .section-container.press-release
+    .swiper-container
+    .release-container
+    .right-column
+    .description {
+    background: rgba(229, 234, 234, 0.8);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  /*PRESS RELEASE*/
+  .section-container.press-release .bg-overlay {
+    height: 250px;
+  }
+
+  .section-container.press-release
+    .swiper-container-vertical
+    > .swiper-pagination-bullets {
+    right: 10px;
+  }
+
+  .section-container.press-release
+    .swiper-container
+    .release-container
+    .right-column
+    .description
+    .bottom {
+    width: 220px;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .section-container.press-release
+    .swiper-container
+    .release-container
+    .right-column
+    .description {
+    padding: 50px 25px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .section-container.press-release
+    .swiper-container
+    .release-container
+    .right-column
+    .description
+    .top {
+    top: 10px;
+  }
+}

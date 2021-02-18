@@ -1,0 +1,61 @@
+
+.section-container .article-container .header {
+    font-size: 3rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.section-container .article-container .content {
+    transition: all 0.4s;
+    overflow: hidden;
+}
+
+.section-container .article-container:not(:first-child) .content {
+    height: 0;
+}
+
+.section-container .article-container .text {
+    font-size: 1rem;
+    
+}
+
+.section-container .article-container .text:not(:last-child){
+    margin: 25px 0px;
+}
+
+.section-container .article-container .text .row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.section-container .article-container .text .row .left-col { 
+    flex-basis: 150px;
+    flex-shrink: 0;
+    font-weight: 700;
+}
+
+.section-container .article-container .trigger {
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section-container .article-container:not(:last-child) .trigger {
+    margin-bottom: 40px;
+}
+
+.section-container .article-container .trigger .liner {
+    height:2px;
+    flex-grow: 1;
+    background:#faa93c;
+    margin-right: 25px;
+}
+
+/**/
+@media screen and (max-width: 900px) {
+.section-container .article-container .content .banner img {
+    object-fit: cover;
+    width: 100%;
+  }
+}

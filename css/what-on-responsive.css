@@ -1,0 +1,59 @@
+@media screen and (min-width: 1100px) {
+  /*What On*/
+
+  .section-container.what-on-sub .bg-overlay.top-right {
+    top: 160px;
+    right: calc((90vw - 1100px) / 2);
+  }
+  .section-container.what-on-sub .bg-overlay.bottom-left {
+    bottom: 0;
+    left: calc((90vw - 1100px) / 2);
+  }
+}
+@media screen and (max-width: 800px) {
+  /*WHAT'S ON*/
+  .section-container.what-on-sub .item-block {
+    width: 100%;
+    min-height: 44vw;
+  }
+
+  .section-container.what-on-sub .item-block.item-block-style-1 .header {
+    font-size: 2rem;
+  }
+  .section-container.what-on-sub .item-block.item-block-style-3 {
+    width: 100%;
+  }
+  .section-container.what-on-sub .item-block.item-block-style-3 .text {
+    font-size: 1.2rem;
+  }
+  /*EVENTS IN HISTORY*/
+  .section-container.press-release .section-header {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /*WHAT'S ON*/
+  .section-container.what-on-sub .section-header {
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+  }
+
+  .section-container.what-on-sub .item-block {
+    width: 100%;
+    min-height: 80vw;
+    height: auto;
+  }
+
+  .section-container.what-on-sub .item-block.item-block-style-3 .description {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    justify-content: center;
+  }
+
+  /*EVENTS IN HISTORY*/
+  .section-container.press-release .section-header {
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+  }
+}

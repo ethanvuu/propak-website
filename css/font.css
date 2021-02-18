@@ -1,0 +1,125 @@
+/*WEB FONTS*/
+
+/*MONTSERRAT*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-Thin.ttf);
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-ExtraLight.ttf);
+    font-weight: 200;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-Light.ttf);
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-Regular.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-Medium.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-ExtraBold.ttf);
+    font-weight: 800;
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url(../webfont/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  /*DarkerGrotesque*/
+  @font-face {
+    font-family: DarkerGrotesque;
+    src: url(../webfont/Darker_Grotesque/DarkerGrotesque-Light.ttf);
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: DarkerGrotesque;
+    src: url(../webfont/Darker_Grotesque/DarkerGrotesque-Regular.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: DarkerGrotesque;
+    src: url(../webfont/Darker_Grotesque/DarkerGrotesque-Medium.ttf);
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: DarkerGrotesque;
+    src: url(../webfont/Darker_Grotesque/DarkerGrotesque-SemiBold.ttf);
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: DarkerGrotesque;
+    src: url(../webfont/Darker_Grotesque/DarkerGrotesque-Bold.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: DarkerGrotesque;
+    src: url(../webfont/Darker_Grotesque/DarkerGrotesque-ExtraBold.ttf);
+    font-weight: 800;
+  }
+  
